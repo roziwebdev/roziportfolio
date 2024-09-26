@@ -29,12 +29,15 @@ function Hero() {
             Welcome to My Portfolio!
             I&apos;m Rozi, an IT specialist focused on delivering effective solutions in development, networking, and support. Let’s work together to bring your projects to life!
           </Typography>
-          <div className="flex flex-col md:flex-row gap-4 items-center">
-            <Button
-                          color="blue"
-                          className=" animate-bounce w-full md:w-auto px-8 py-2 shadow-lg hover:scale-110 transition-transform duration-300 hover:bg-blue-600"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
-              Hire Me
-            </Button>
+                  <div className="flex flex-col md:flex-row gap-4 items-center">
+                      {/* Hire Me Button */}
+                      <a href="https://wa.me/6285155322536" target="_blank">
+                        <Button
+                                    color="blue"
+                                    className=" animate-bounce w-full md:w-auto px-8 py-2 shadow-lg hover:scale-110 transition-transform duration-300 hover:bg-blue-600"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
+                        Hire Me !
+                        </Button>
+                      </a>
             <div className="flex gap-3 pb-4 md:pb-0">
               <IconButton
                               color="white"

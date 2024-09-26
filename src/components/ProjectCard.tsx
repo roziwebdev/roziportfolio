@@ -23,7 +23,7 @@ export function ProjectCard({ img, title, desc,type, href }: ProjectCardProps) {
               shadow={false}
               floated={false}
               className="m-0  rounded-r-none"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-        <a href={href} className="cursor-pointer">
+        <a href={href} className="cursor-pointer" target="_blank">
         <Image
           width={600}
           height={600}
@@ -44,7 +44,7 @@ export function ProjectCard({ img, title, desc,type, href }: ProjectCardProps) {
         <Typography color="gray" className="mb-8 font-normal"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           {desc}
         </Typography>
-        <a href={href} className="inline-block">
+        <a href={href} target="_blank" className="inline-block">
             
           <Button variant="text" className="flex items-center gap-2 text-blue-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             Learn More
