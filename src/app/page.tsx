@@ -4,6 +4,7 @@ import Hero from "./ui/Hero";
 import Contacts from "./ui/Contacts";
 import Navbar from "@/components/Navbar";
 import Skills from "./ui/Skills";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <section id="contacts">
         <Contacts />
       </section>
+      <Footer/>
     </>
 
   );

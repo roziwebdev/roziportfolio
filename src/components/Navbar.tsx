@@ -84,7 +84,7 @@ export function Navbar() {
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
       <div className="container mx-auto flex items-center justify-between">
         <Typography color="blue-gray" className="text-lg font-bold"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-          Material Tailwind
+          Rozi Portfolio
         </Typography>
         {/* Desktop Navbar */}
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
