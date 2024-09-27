@@ -8,13 +8,7 @@ const PROJECTS = [
     type:"Laravel PHP",
     img: "/image/project/arjayasite.png",
     title: "System Management",
-    desc: "Proyek ini bertujuan untuk membangun sebuah sistem manajemen berbasis website yang komprehensif dan terintegrasi guna mendukung berbagai aspek operasional bisnis perusahaan. Sistem ini akan mencakup modul-modul penting seperti :
-     <br/>
-    1. Purchasing <br/>
-    2. Sales <br/>
-    3. Prodev <br/>
-    4. HRGA <br/>
-    ",
+    desc: "Proyek ini bertujuan untuk membangun sebuah sistem manajemen berbasis website yang komprehensif dan terintegrasi guna mendukung berbagai aspek operasional bisnis perusahaan. Sistem ini akan mencakup modul-modul penting seperti : Purchase Order, Product Decelopment, Sales, HRGA, Inventory dan masih banyak lagi.",
     href:"https://rozi.arjaya.site/",
   },
   {
