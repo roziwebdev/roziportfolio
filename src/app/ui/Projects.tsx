@@ -8,7 +8,7 @@ const PROJECTS = [
     type:"Laravel PHP",
     img: "/image/project/arjayasite.png",
     title: "System Management",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    desc: "Proyek ini bertujuan untuk membangun sebuah sistem manajemen berbasis website yang komprehensif dan terintegrasi guna mendukung berbagai aspek operasional bisnis perusahaan. Sistem ini akan mencakup modul-modul penting seperti:",
     href:"https://rozi.arjaya.site/",
   },
   {
