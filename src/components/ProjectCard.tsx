@@ -18,11 +18,11 @@ interface ProjectCardProps {
 
 export function ProjectCard({ img, title, desc,type, href }: ProjectCardProps) {
   return (
-    <Card  className="my-5 w-full p-8 justify-between lg:flex-row bg-gradient-to-r from-white to-blue-50 rounded-r-none lg:items-center lg:flex lg:space-x-6"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+    <Card  className="my-5 w-full p-16 justify-between lg:flex-row bg-gradient-to-r from-white to-blue-50 rounded-r-none"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
       <CardHeader
               shadow={false}
               floated={false}
-              className="m-0  rounded-r-none lg:w-1/3 min-w-[300px] lg:min-w-[400px]"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+              className="m-0  rounded-r-none"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
         <a href={href} className="cursor-pointer" target="_blank">
         <Image
           width={600}
@@ -33,7 +33,7 @@ export function ProjectCard({ img, title, desc,type, href }: ProjectCardProps) {
         />
         </a>
       </CardHeader>
-      <CardBody className="flex-grow"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
+      <CardBody  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
         <Typography variant="paragraph" color="gray" className="text-sm mb-4 uppercase flex items-center gap-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <PencilSquareIcon className="h-5 w-5"/>
           { type}
