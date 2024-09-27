@@ -15,14 +15,14 @@ const PROJECTS = [
     type:"Next JS",
     img: "/image/project/companyprofile.png",
     title: "Company Profile & E-Commerce",
-      desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
+      desc: "Proyek ini bertujuan untuk membangun website company profile yang modern dan informatif, dilengkapi dengan fitur e-commerce untuk memudahkan transaksi jual-beli produk perusahaan secara online. ",
     href:"https://arjayaprint.vercel.app/"
   },
   {
     type:"Next JS",
     img: "/image/project/admindashboard.png",
     title: "Admin Dashboard E-Commerce",
-      desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+      desc: "Proyek ini bertujuan untuk membangun sistem admin berbasis website yang memungkinkan administrator mengelola produk dan pengguna dalam platform e-commerce. Sistem ini mencakup fitur-fitur penting sebagai berikut: Managemen Produk dan Pengguna, Dashboard Statistik dan Laporan, dan lain sebagainya",
     href:"https://admindashboard-rozi.vercel.app/"
   }
 ];
