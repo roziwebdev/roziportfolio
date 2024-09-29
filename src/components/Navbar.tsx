@@ -96,7 +96,9 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Download CV</Button>
+          <a href="cvrozi.pdf" download="Resume Rozi">
+            <Button color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Download CV</Button>
+          </a>
         </div>
         {/* Mobile Menu Button */}
         <IconButton
@@ -123,7 +125,9 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Download CV</Button>
+            <a href="cvrozi.pdf" download="Resume Rozi">
+              <Button color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Download CV</Button>
+            </a>
           </div>
         </div>
       </Collapse>
