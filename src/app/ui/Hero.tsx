@@ -39,21 +39,20 @@ function Hero() {
                         </Button>
                       </a>
             <div className="flex gap-3 pb-4 md:pb-0">
-              <a href="https://www.instagram.com/rozi25x/">
-              <IconButton
-                              color="white"
-                              className="rounded-full p-3 shadow-lg hover:bg-blue-500 hover:text-white transition-transform duration-300 hover:scale-110"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}              >
-                <FaInstagram size={20} />
-              </IconButton>
-              </a>
+                <a href="https://www.instagram.com/rozi25x/">
+                  <IconButton
+                                  color="white"
+                                  className="rounded-full p-3 shadow-lg hover:bg-black hover:text-white transition-transform duration-300 hover:scale-110"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}              >
+                    <FaInstagram size={20} />
+                  </IconButton>
+                </a>
                 <a href="https://github.com/roziwebdev">
                   <IconButton
                               color="white"
-                              className="rounded-full p-3  shadow-lg hover:bg-blue-500 hover:text-white transition-transform duration-300 hover:scale-110"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}              >
+                              className="rounded-full p-3  shadow-lg hover:bg-pink-500 hover:text-white transition-transform duration-300 hover:scale-110"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}              >
                     <FaGithub size={20} />
                   </IconButton>
                 </a>
-              
             </div>
           </div>
         </div>
